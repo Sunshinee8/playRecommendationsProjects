@@ -1,0 +1,20 @@
+{
+  "miniprogramRoot": "./",
+  "appid": "wxdf1ab18a25e7ff24",
+  "projectname": "playRecommendations",
+  "setting": {
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "autoAudit": true,
+    "compileHotReLoad": true,
+    "enhance": true,
+    "urlCheck":false,
+    "babelSetting": {
+        "ignore": [],
+        "disablePlugins": [],
+        "outputPath": ""
+      },
+    "nodeModulesPath": "./node_modules"
+  }
+}

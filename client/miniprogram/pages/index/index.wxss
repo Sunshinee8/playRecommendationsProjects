@@ -1,0 +1,8 @@
+/* ... existing code ... */
+.hello-text {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+  flex-wrap: wrap;
+}
+/* ... existing code ... */
