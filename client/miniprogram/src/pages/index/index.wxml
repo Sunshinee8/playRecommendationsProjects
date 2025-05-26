@@ -1,5 +1,5 @@
 <!-- ... existing code ... -->
 <view class="container">
-  <text class="hello-text">hah111Hello, World哈</text>
+  <text class="hello-text">Hello, World</text>
 </view>
 <!-- ... existing code ... -->

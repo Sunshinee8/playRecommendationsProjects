@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "gulp dev --color",
-    "build": "rimraf ./build && mkdirp ./build && cpx \"{app.*,pages/**/*,project.config.json,!node_modules/**}\" ./build/ --no-initial"
+    "build": "rimraf ./build && mkdirp ./build && cpx \"src/app.json\" ./build/ && cpx \"src/**/*\" ./build/ && cpx \"project.config.json\" ./build/"
    
   },
   "keywords": [],
