@@ -1,3 +1,0 @@
-[submodule "client/server"]
-	path = client/server
-	url = ./client/server
