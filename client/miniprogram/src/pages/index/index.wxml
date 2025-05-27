@@ -1,5 +1,4 @@
-<!-- ... existing code ... -->
+
 <view class="container">
-  <text class="hello-text">Hello, World</text>
+  <text class="hello-text" bind:tap="onClick">Hello, World11</text>
 </view>
-<!-- ... existing code ... -->

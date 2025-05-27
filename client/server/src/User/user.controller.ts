@@ -6,6 +6,11 @@ import {User} from "./user.entity"
 export class UserController {
   constructor(private readonly userService: UserService) {}
 
+  @Get('test')
+  getTest(): string {
+    return 'API is working!';
+  }
+
   @Get()
   getHello(): string {
     return this.userService.getHello();

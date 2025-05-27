@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start:client": "cd client/miniprogram && npm run dev",
-    "start:server": "cd server && npm run start:dev",
+    "start:server": "cd client/server && npm run start",
     "start:all": "concurrently \"npm run start:client\" \"npm run start:server\""
   },
   "devDependencies": {

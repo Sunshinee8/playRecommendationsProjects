@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "allowJs": true,
+    "checkJs": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": { "@/*": ["src/*"] },
+    "types": ["miniprogram-api-typings"],
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
